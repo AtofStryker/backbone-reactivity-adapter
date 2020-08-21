@@ -1,0 +1,32 @@
+{
+  "name": "@atofstryker/backbone-reactivity-adapter",
+  "version": "0.6.2",
+  "description": "A cache/model proxy to go between backbone objects and POJO objects",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "Bill Glesias",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "peerDependencies": {
+    "backbone": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "proxy-polyfill": "0.3.2"
+  },
+  "devDependencies": {
+    "@atofstryker/backbone-model-factory-json-api": "^0.0.1",
+    "@atofstryker/pojo-model-factory-json-api": "^0.0.1",
+    "@atofstryker/json-api-types": "^0.4.0",
+    "@types/backbone": "^1.4.3",
+    "backbone": "^1.4.0"
+  },
+  "gitHead": "e03a54e41cf04cc1b79514c5045a28cd6c5a09a0"
+}
