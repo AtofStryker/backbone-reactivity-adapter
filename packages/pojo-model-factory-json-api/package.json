@@ -1,6 +1,6 @@
 {
   "name": "@atofstryker/pojo-model-factory-json-api",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A model factory for POJO models to be used with the backbone reactivity adapter",
   "main": "dist/index.js",
   "files": [

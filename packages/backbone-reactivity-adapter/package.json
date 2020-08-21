@@ -1,6 +1,6 @@
 {
   "name": "@atofstryker/backbone-reactivity-adapter",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "description": "A cache/model proxy to go between backbone objects and POJO objects",
   "main": "dist/index.js",
   "files": [
@@ -22,9 +22,9 @@
     "proxy-polyfill": "0.3.2"
   },
   "devDependencies": {
-    "@atofstryker/backbone-model-factory-json-api": "^0.0.1",
-    "@atofstryker/pojo-model-factory-json-api": "^0.0.1",
+    "@atofstryker/backbone-model-factory-json-api": "^0.1.0",
     "@atofstryker/json-api-types": "^0.4.0",
+    "@atofstryker/pojo-model-factory-json-api": "^0.1.0",
     "@types/backbone": "^1.4.3",
     "backbone": "^1.4.0"
   },
